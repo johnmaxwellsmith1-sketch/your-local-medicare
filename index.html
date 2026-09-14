@@ -40,8 +40,15 @@
   <a class="cta secondary" href="https://www.youtube.com/@yourlocalmedicare/shorts">Shorts Feed</a>
 
   <h2>Latest explainers</h2>
-  <ul id="videos">
-    <!-- each live video appended here -->
+  <ul>
+    <li><a href="https://youtu.be/Z1o7_HLqV_0">Turning 65 in Mississippi — the 3-month rule you can't miss</a></li>
+    <li><a href="https://youtu.be/9KCM5jT63Pg">Medicare Part B premium in 2026 — what it costs and who pays more</a></li>
+    <li><a href="https://youtu.be/zOnDvXOCGBI">The Medicare coverage gap (donut hole) explained in 45 seconds</a></li>
+    <li><a href="https://youtu.be/RX1PJGbV9es">Medicare Advantage vs. Medigap — the 30-second difference</a></li>
+    <li><a href="https://youtu.be/6jnCajSv5go">Do you qualify for help paying Medicare? Extra Help &amp; dual eligibility</a></li>
+    <li><a href="https://youtu.be/GPQ-MjyAQSo">Working past 65 — how the Part D late-enrollment penalty works</a></li>
+    <li><a href="https://youtu.be/RKzx3Gbh2VQ">What Medicare does NOT cover — and the supplement that does</a></li>
+    <li><a href="https://youtu.be/-AhVDRq2Q3Q">55 to 64 — how to bridge the gap before Medicare starts</a></li>
   </ul>
 
   <h2>What we cover</h2>
@@ -51,26 +58,5 @@
     This content is not connected with or endorsed by the United States government or the federal Medicare program.
     We do not offer every plan available in your area. Contact Medicare.gov, 1-800-MEDICARE, or your local State Health Insurance Program (SHIP) for information on all your options.
   </div>
-  <script>
-    const vids = [
-      {id:"Z1o7_HLqV_0", t:"Turning 65 in Mississippi — the 3-month rule you can't miss"},
-      {id:"9KCM5jT63Pg", t:"Medicare Part B premium in 2026 — what it costs and who pays more"},
-      {id:"zOnDvXOCGBI", t:"The Medicare coverage gap (donut hole) explained in 45 seconds"},
-      {id:"RX1PJGbV9es", t:"Medicare Advantage vs. Medigap — the 30-second difference"},
-      {id:"6jnCajSv5go", t:"Do you qualify for help paying Medicare? Extra Help & dual eligibility"},
-      {id:"GPQ-MjyAQSo", t:"Working past 65 — how the Part D late-enrollment penalty works"},
-      {id:"RKzx3Gbh2VQ", t:"What Medicare does NOT cover — and the supplement that does"},
-      {id:"-AhVDRq2Q3Q", t:"55 to 64 — how to bridge the gap before Medicare starts"}
-    ];
-    const ul = document.getElementById("videos");
-    vids.forEach(v => {
-      const li = document.createElement("li");
-      const a = document.createElement("a");
-      a.href = "https://youtu.be/" + v.id;
-      a.textContent = v.t;
-      li.appendChild(a);
-      ul.appendChild(li);
-    });
-  </script>
 </body>
 </html>
