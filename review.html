@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Medicare Plan Review — Your Local Medicare</title>
+  <meta name="description" content="Get a free, no-obligation review of your Medicare options — Part A/B/C/D, Medicare Advantage, Medigap, and Part D. Built by a licensed insurance agent. No hard sell, no obligation.">
+  <meta property="og:title" content="Free Medicare Plan Review">
+  <meta property="og:description" content="A licensed insurance agent will help you understand your Medicare options. Free, no-obligation.">
+  <meta property="og:type" content="website">
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 480px; margin: 0 auto; padding: 32px 20px 60px;
+      line-height: 1.6; color: #1a1a1a;
+    }
+    @media (prefers-color-scheme: dark) { body { background: #0f1115; color: #e6e6e6; } }
+    h1 { font-size: 1.5rem; margin-bottom: .3rem; }
+    .sub { color: #666; margin-top: 0; }
+    @media (prefers-color-scheme: dark) { .sub { color: #9a9a9a; } }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 20px; margin-top: 20px; }
+    @media (prefers-color-scheme: dark) { .card { border-color: #333; } }
+    label { display: block; font-weight: 600; margin: 12px 0 4px; font-size: .9rem; }
+    input, select {
+      width: 100%; box-sizing: border-box; padding: 10px 12px; font-size: 1rem;
+      border: 1px solid #bbb; border-radius: 8px; background: #fff; color: #1a1a1a;
+    }
+    @media (prefers-color-scheme: dark) { input, select { background: #1c1f26; color: #e6e6e6; border-color: #444; } }
+    button {
+      width: 100%; padding: 14px; margin-top: 20px; font-size: 1.05rem; font-weight: 700;
+      background: #e53935; color: #fff; border: 0; border-radius: 8px; cursor: pointer;
+    }
+    button:hover { opacity: .92; }
+    .note { font-size: .85rem; color: #777; margin-top: 8px; }
+    @media (prefers-color-scheme: dark) { .note { color: #9a9a9a; } }
+    .disclaimer { font-size: .8rem; color: #888; border-top: 1px solid #ddd; margin-top: 28px; padding-top: 12px; }
+    @media (prefers-color-scheme: dark) { .disclaimer { color: #9a9a9a; border-top-color: #333; } }
+    #status { margin-top: 14px; font-weight: 600; min-height: 1.4em; }
+  </style>
+</head>
+<body>
+  <h1>Free Medicare Plan Review</h1>
+  <p class="sub">Understand your options before you decide. No obligation. No hard sell.</p>
+
+  <div class="card">
+    <form id="leadForm">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required placeholder="Your name">
+
+      <label for="phone">Phone</label>
+      <input id="phone" name="phone" type="tel" required placeholder="(555) 555-0123">
+
+      <label for="email">Email (optional)</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com">
+
+      <label for="age">Your age</label>
+      <select id="age" name="age">
+        <option value="">Select…</option>
+        <option>Under 65 (pre-Medicare)</option>
+        <option>Turning 65</option>
+        <option>65–74</option>
+        <option>75 or older</option>
+      </select>
+
+      <label for="zip">ZIP code</label>
+      <input id="zip" name="zip" type="text" inputmode="numeric" required placeholder="e.g. 39501">
+
+      <label for="interest">What do you want to review?</label>
+      <select id="interest" name="interest">
+        <option value="">Select…</option>
+        <option>Medicare Advantage vs. Medigap</option>
+        <option>Part D / prescription coverage</option>
+        <option>Turning 65 / first-time enrollment</option>
+        <option>Extra Help / low-income assistance</option>
+        <option>Not sure yet</option>
+      </select>
+
+      <button type="submit">Request My Free Review</button>
+    </form>
+    <div id="status"></div>
+    <p class="note">By submitting you agree to be contacted by a licensed insurance agent about Medicare options. No obligation.</p>
+  </div>
+
+  <div class="disclaimer">
+    This content is not connected with or endorsed by the United States government or the federal Medicare program.
+    We do not offer every plan available in your area. Contact Medicare.gov, 1-800-MEDICARE, or your local State Health Insurance Program (SHIP) for information on all your options.
+  </div>
+
+  <script>
+    // NOT LIVE: consumer PII (name/phone/email) must go only to the agent's own
+    // intake (their CRM/email/phone), not to any third-party relay we can't verify.
+    // Until the licensed agent configures their real destination, submitting will
+    // not send data anywhere. Wire the fetch() below to that endpoint when ready.
+    document.getElementById("leadForm").addEventListener("submit", (e) => {
+      e.preventDefault();
+      const status = document.getElementById("status");
+      status.textContent =
+        "This review form isn't live yet — a licensed agent is setting up secure intake. " +
+        "For all Medicare options call Medicare.gov or 1-800-MEDICARE.";
+    });
+  </script>
+</body>
+</html>
