@@ -34,6 +34,14 @@ The Medicare / health-coverage gap is enormous and underserved. Most content is 
 | Working past 65 — Part D penalty | https://youtu.be/GPQ-MjyAQSo |
 | What Medicare doesn't cover | https://youtu.be/RKzx3Gbh2VQ |
 | 55–64 — bridging to Medicare | https://youtu.be/-AhVDRq2Q3Q |
+| What is IRMAA (Part B income adj.) | https://youtu.be/CDgmKXNX_aA |
+| Medicare deductibles 2026 | https://youtu.be/LHxPuw1khWU |
+| Medigap Plan G — why it's popular | https://youtu.be/yqhK_4L0qjI |
+| Open enrollment Oct 15 — what changes | https://youtu.be/yhEeOfQt2Ro |
+| Keep employer insurance at 65? | https://youtu.be/RoOYRvHawDs |
+| What Part A covers | https://youtu.be/6QDWTYoMc2A |
+| The 7-month initial window | https://youtu.be/QDPAFbzlNjs |
+| Original Medicare vs Advantage | https://youtu.be/A43SLAho6JI |
 
 ## Not affiliated with the government
 
