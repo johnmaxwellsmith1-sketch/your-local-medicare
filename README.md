@@ -42,6 +42,14 @@ The Medicare / health-coverage gap is enormous and underserved. Most content is 
 | What Part A covers | https://youtu.be/6QDWTYoMc2A |
 | The 7-month initial window | https://youtu.be/QDPAFbzlNjs |
 | Original Medicare vs Advantage | https://youtu.be/A43SLAho6JI |
+| Advantage with dental/vision/hearing | https://youtu.be/cGkqjfCjOCM |
+| Part B late-enrollment penalty | https://youtu.be/l6eGN2aooHI |
+| Medigap vs Original Medicare | https://youtu.be/lfAOQruXvz0 |
+| Special Enrollment Period | https://youtu.be/oternekiS5A |
+| Medicare broker vs agent | https://youtu.be/RE98jz7Vewc |
+| Medicare Part C explained | https://youtu.be/KY52DydExJc |
+| How to appeal a Medicare denial | https://youtu.be/knaYpa8e2DM |
+| Medicare vs Medicaid | https://youtu.be/D9P99ySDPIA |
 
 ## Not affiliated with the government
 
